@@ -81,15 +81,15 @@ def main():
                 ImageReconstruction = col3.image(reconstruction)
                 col3.markdown("Reconstruction")
                 if is_anomaly:
-                    st.write("Default detected !")
+                    st.write("Defect detected !")
                 else:
-                    st.write("No default detected !")
+                    st.write("No defect detected !")
 
 
     else :
 
         # 2. Titre et description
-        st.title("AeroScan — Default detection")
+        st.title("AeroScan — Defect detection")
 
         # 3. Charger le modèle (avec cache pour éviter de recharger à chaque interaction)
         model = get_model()
@@ -119,9 +119,9 @@ def main():
                 ImageReconstruction = col3.image(reconstruction)
                 col3.markdown("Reconstruction")
                 if is_anomaly:
-                    st.write("Default detected !")
+                    st.write("Defect detected !")
                 else:
-                    st.write("No default detected !")
+                    st.write("No defect detected !")
 
 if __name__ == "__main__":
     main()
