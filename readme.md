@@ -139,7 +139,7 @@ AeroScan/
 │ ├── autoencoder.py
 │ ├── train.py
 │ └── detect.py
-├── models/ # trained weights (not versioned)
+├── models/ # trained weights
 ├── data/ # dataset (not versioned)
 ├── .gitignore
 ├── requirements.txt
@@ -178,7 +178,7 @@ Run your extraction script (implemented in `patch_extractor.py`) to create:
 
 ### 10.3 Training
 Run `src/train.py` to train the autoencoder on clean patches.  
-Weights are saved under `models/`.
+Weights are saved under `models/`. You can also directly one of the provided models.
 
 ### 10.4 Evaluation
 Run `src/detect.py` to compute:
@@ -194,7 +194,6 @@ Start Streamlit:
 ## 11) Git Best Practices (.gitignore)
 This repo does **not** version:
 - `data/` (large dataset files),
-- `models/*.pt` (large model weights),
 - Python caches, OS files, notebook checkpoints, IDE settings.
 
 ---
