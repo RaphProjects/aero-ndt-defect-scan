@@ -1,6 +1,5 @@
 # AeroScan — AI-Powered Non-Destructive Testing (NDT) for Surface Defect Detection
 <img width="1775" height="661" alt="image" src="https://github.com/user-attachments/assets/ac39230a-0ab2-41e0-aaf6-b187dddefd0d" />
-<img width="1775" height="661" alt="image" src="https://github.com/user-attachments/assets/ac39230a-0ab2-41e0-aaf6-b187dddefd0d" />
 
 
 AeroScan is a prototype smart inspection assistant for metallic surfaces (inspired by the aerospace engine manufacturing/maintenance context).  
